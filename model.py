@@ -1,7 +1,6 @@
-# model.py
 from transformers import pipeline
 
-# создаём классификатор тональности (sentiment-analysis)
+# создаём классификатор тональности
 classifier = pipeline("sentiment-analysis")
 
 def analyze_text(text: str):

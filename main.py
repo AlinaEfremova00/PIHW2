@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from model import analyze_text  # <-- правильное имя функции
+from model import analyze_text
 
 app = FastAPI()
 
